@@ -32,7 +32,7 @@ public class CalorieCounterApp {
 
             switch (choice) {
                 case 0:
-                    break;
+                    System.exit(0);
                 case 1:
                     System.out.println("Produkty do wyboru: ");
                     for (Products product : allFood.getListOfProducts()) {
