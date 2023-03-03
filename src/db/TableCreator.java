@@ -43,6 +43,7 @@ public class TableCreator {
         products.add(new Products(25, "Szpinak", 23, 2.9, 1.4, 0.4));
         products.add(new Products(26, "Kalafior", 25, 2, 5, 0.3));
         products.add(new Products(27, "Brokuły", 35, 2.8, 7, 0.4));
+
         SQLQuery.insertProducts(products);
     }
 
